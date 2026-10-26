@@ -7,7 +7,6 @@ import Countdown from "@/components/Countdown";
 import Events from "@/components/Events";
 import OurStory from "@/components/OurStory";
 import FavoriteMoments from "@/components/FavoriteMoments";
-import LocationSection from "@/components/LocationSection";
 import Footer from "@/components/Footer";
 import MusicToggle from "@/components/MusicToggle";
 import ScrollToTop from "@/components/ScrollToTop";
@@ -31,7 +30,6 @@ export default function Home() {
         <Events />
         <OurStory />
         <FavoriteMoments />
-        {/* <LocationSection /> */}
         <Footer />
         <ScrollToTop />
       </div>
