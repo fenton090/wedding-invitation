@@ -31,7 +31,7 @@ export default function Home() {
         <Events />
         <OurStory />
         <FavoriteMoments />
-        <LocationSection />
+        {/* <LocationSection /> */}
         <Footer />
         <ScrollToTop />
       </div>

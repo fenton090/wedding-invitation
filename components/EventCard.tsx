@@ -87,9 +87,14 @@ export default function EventCard({ event, index }: EventCardProps) {
           {/* Time & Muhurtham */}
           <div className="mt-3 inline-block px-4 py-1.5 rounded-full bg-[#F3EFE6] border border-[#E4DDD0] text-xs text-[#5C5549] font-medium">
             {event.time}
-            {event.muhurthamTime && (
+            {event.BaraatTime && (
               <span className="block text-[11px] text-amber-900 font-semibold mt-0.5">
-                Muhurtham: {event.muhurthamTime}
+                Baraat: {event.BaraatTime}
+              </span>
+            )}
+            {event.VarmalaTime && (
+              <span className="block text-[11px] text-amber-900 font-semibold mt-0.5">
+                Varmala: {event.VarmalaTime}
               </span>
             )}
           </div>

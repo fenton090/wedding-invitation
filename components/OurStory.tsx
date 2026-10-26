@@ -36,7 +36,7 @@ export default function OurStory() {
               {weddingConfig.storyParagraph2}
             </p>
 
-            <div className="mt-8">
+            {/* <div className="mt-8">
               <a
                 href="#gallery"
                 className="inline-flex items-center space-x-2 text-xs tracking-[0.2em] font-semibold text-[#2C2723] hover:text-amber-800 transition-colors uppercase group"
@@ -44,7 +44,7 @@ export default function OurStory() {
                 <span>READ OUR STORY</span>
                 <ArrowRight size={14} className="group-hover:translate-x-1 transition-transform" />
               </a>
-            </div>
+            </div> */}
           </motion.div>
 
           {/* Right Polaroid Photo Collage Column */}
