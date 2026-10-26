@@ -23,7 +23,7 @@ export const weddingConfig = {
   bride: { name: "Ayushi Agarwal", shortName: "Ayushi" },
   groom: { name: "Ayush Goyal", shortName: "Ayush" },
   initials: "A + A",
-  countdownTargetDate: "2026-12-11T20:00:00",
+  countdownTargetDate: "2026-12-11T21:00:00",
   mainWeddingDate: "December 11, 2026",
   weddingLocationShort: "KAYAMKULAM, KERALA",
   rsvpDeadline: "December 08, 2026",
@@ -97,7 +97,7 @@ export const weddingConfig = {
     id: "reception",
     name: "Wedding Reception",
     date: "2026-12-12",
-    time: "6:00 PM onwards",
+    time: "6:00 AM onwards",
     location: "Keyaan Saloni",
     addressDetails: "Fatehabad Rd, Kalal Kheria, Agra",
     googleMapsUrl:

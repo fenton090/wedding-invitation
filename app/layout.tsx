@@ -27,7 +27,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: `${weddingConfig.bride.name} & ${weddingConfig.groom.name} Wedding Invitation`,
     description: `We invite you to celebrate our special wedding day on ${weddingConfig.mainWeddingDate}.`,
-    images: ["/images/og-image.jpg"],
+    images: ["/images/preview-img.jpg"],
   },
   icons: {
     icon: "/favicon.ico",
